@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="grid1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+                <Button Background="Beige" Foreground="DarkGreen" MaxHeight="100" MaxWidth="300" HorizontalAlignment="Center" VerticalAlignment="Center">
+            Submit
+        </Button>
+        <DockPanel>
+            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top">Message:</TextBlock>
+            <TextBox Width="100" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBox>
+            </DockPanel>
+        <WrapPanel Margin="20" HorizontalAlignment="Left">
+            <Button Margin="0,0,10,10" Foreground="Navy">Navy</Button>
+            <Button Margin="0,0,10,10" Foreground="Blue">Blue</Button>
+            <Button Margin="0,0,10,10" Foreground="Aqua">Aqua</Button>
+            <Button Margin="0,0,10,10" Foreground="Teal">Teal</Button>
+            <Button Margin="0,0,10,10" Foreground="Olive">Olive</Button>
+            <Button Margin="0,0,10,10" Foreground="Green">Green</Button>
+            <Button Margin="0,0,10,10" Foreground="Lime">Lime</Button>
+            <Button Margin="0,0,10,10" Foreground="Yellow">Yellow</Button>
+            <Button Margin="0,0,10,10" Foreground="Orange">Orange</Button>
+            <Button Margin="0,0,10,10" Foreground="Red">Red</Button>
+            <Button Margin="0,0,10,10" Foreground="Maroon">Maroon</Button>
+            <Button Margin="0,0,10,10" Foreground="Fuchsia">Maroon</Button>
+            <Button Margin="0,0,10,10" Foreground="Purple">Maroon</Button>
+            <Button Margin="0,0,10,10" Foreground="Black">Maroon</Button>
+            <Button Margin="0,0,10,10" Foreground="Silver">Maroon</Button>
+            <Button Margin="0,0,10,10" Foreground="Gray">Maroon</Button>
+            <Button Margin="0,0,10,10" Foreground="White">Maroon</Button>
+        </WrapPanel>
+    </Grid>
+</Window>
